@@ -100,8 +100,8 @@ def main():
     model = models.__dict__[args.model]('', False, False, img_size=img_size,
                                         num_classes=num_classes,
                                         positional_embedding=args.positional_embedding,
-                                        n_conv_layers=args.conv_layers,
-                                        kernel_size=args.conv_size,
+                                        conv_layers=args.conv_layers,
+                                        conv_size=args.conv_size,
                                         patch_size=args.patch_size)
 
     model.load_state_dict(torch.load(args.checkpoint_path, map_location='cpu'))
