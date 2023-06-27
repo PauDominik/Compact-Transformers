@@ -111,7 +111,7 @@ def vit_2_4_32(pretrained=False, progress=False,
                img_size=32, positional_embedding='learnable', num_classes=10,
                *args, **kwargs):
     return vit_2('vit_2_4_32', pretrained, progress,
-                 kernel_size=4,
+ #                kernel_size=4,
                  img_size=img_size, positional_embedding=positional_embedding,
                  num_classes=num_classes,
                  *args, **kwargs)
@@ -133,7 +133,7 @@ def vit_4_4_32(pretrained=False, progress=False,
                img_size=32, positional_embedding='learnable', num_classes=10,
                *args, **kwargs):
     return vit_4('vit_4_4_32', pretrained, progress,
-                 kernel_size=4,
+ #                kernel_size=4,
                  img_size=img_size, positional_embedding=positional_embedding,
                  num_classes=num_classes,
                  *args, **kwargs)
@@ -155,7 +155,7 @@ def vit_6_4_32(pretrained=False, progress=False,
                img_size=32, positional_embedding='learnable', num_classes=10,
                *args, **kwargs):
     return vit_6('vit_6_4_32', pretrained, progress,
-                 kernel_size=4,
+#                 kernel_size=4,
                  img_size=img_size, positional_embedding=positional_embedding,
                  num_classes=num_classes,
                  *args, **kwargs)
@@ -177,7 +177,7 @@ def vit_7_4_32(pretrained=False, progress=False,
                img_size=32, positional_embedding='learnable', num_classes=10,
                *args, **kwargs):
     return vit_7('vit_7_4_32', pretrained, progress,
-                 kernel_size=4,
+ #                kernel_size=4,
                  img_size=img_size, positional_embedding=positional_embedding,
                  num_classes=num_classes,
                  *args, **kwargs)
